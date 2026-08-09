@@ -16,15 +16,7 @@ NODE * delete_at_begin(NODE* head, int data);
 NODE * delete_at_end(NODE* head, int data);
 NODE * delete_at_index(NODE* head,int index);
 NODE * delete_after_value(NODE* head, int data,int value);
-int main(){
-    
-    struct node * head;
-    head = create_node(1);
-    head = insert_at_end(head , 3);
-    head = insert_at_end(head , 5);
-    head = insert_at_end(head , 4);
-    head = insert_at_index(head,222,2);
-    Print_node(head);
+
     
     
     
